@@ -40,6 +40,14 @@ a:active {
 	border: 2px solid black;
 }
 
+#searchFields {
+	float: right;
+}
+
+.button {
+	width: 50px;
+	background-color: white;
+}
 /*Side Element */
 
 .sidebar {
@@ -91,3 +99,12 @@ button {
 h2 {
 	color: #785616;
 }
+
+/*Button Links*/
+.visible {
+	display: block;
+  }
+  
+  .hidden {
+	display: none;
+  }

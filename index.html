@@ -10,15 +10,10 @@
 	<div class="top-bar">
 		<ul class="top-nav">
 			<li id="view-music" class="top-nav" ><a class="border-right" href="#">View Music</a></li>
-			<li class="top-nav" ><a class="border-right" href="#">Add Music</a></li>
-			<li class="top-nav"><a href="#">Profile</a></li>
+			<li id="link-add" class="top-nav" ><a class="border-right" href="#">Add Music</a></li>
+			<li id="link-list" class="top-nav"><a href="#">Profile</a></li>
 		</ul>
-		<div id="searchFields">
-		<input type="text" placeholder="Song Name"></input>
-		<input type="text" placeholder="Artist Name"></input>
-		<input type="text" placeholder="Album Name"></input>
-		<button class="button">Add</button>
-		</div>
+		
 	</div>
 	<div class="sidebar">
 		<form>
@@ -73,13 +68,19 @@
 	  </section>
 	  
 	  <section class="hidden" id="add-view">
+			<header id="searchFields">
+			<input type="text" placeholder="Song Name"></input>
+			<input type="text" placeholder="Artist Name"></input>
+			<input type="text" placeholder="Album Name"></input>
+			<button class="button">Add</button>
+			</header>
 
 	  </section>
 		
 	</div>
 <script type="text/javascript" src="./javascripts/songs.js"></script>
-<script type="text/javascript" src="home.js"></script>
-<script type="text/javascript" src="list.js"></script>
-<script type="text/javascript" src="add.js"></script>
+<script type="text/javascript" src="./javascripts/home.js"></script>
+<script type="text/javascript" src="./javascripts/list.js"></script>
+<script type="text/javascript" src="./javascripts/add.js"></script>
 </body>
 </html>

@@ -41,7 +41,8 @@ a:active {
 }
 
 #searchFields {
-	float: right;
+	float: top;
+	margin-left: 55%;
 }
 
 .button {

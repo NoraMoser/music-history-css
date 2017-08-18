@@ -15,6 +15,8 @@
 		</ul>
 		
 	</div>
+	
+	<!-- sidebar -->
 	<div class="sidebar">
 		<form>
 			Song Length: <br>
@@ -23,7 +25,7 @@
 		<br>
 		Artist: <br>
 		<select class="options" name="Artists"> 
-		    <option value="option">Option 1</option>
+			<option value="option">Option 1</option>
 		    <option value="option">Option 2</option>
 		    <option value="option">Option 3</option>
 		    <option value="option">Option 4</option>
@@ -32,7 +34,7 @@
 	    <br>
 	    Album: <br>
 	    <select class="options" name="Albums">
-		    <option value="option">Option 1</option>
+			<option value="option">Option 1</option>
 		    <option value="option">Option 2</option>
 		    <option value="option">Option 3</option>
 		    <option value="option">Option 4</option>
@@ -40,7 +42,7 @@
 	    </select> <br>
 	    <br>
 	    <form class="checkbox">
-	    Genre: <br>
+			Genre: <br>
     		<input type="checkbox" name="musictype1" value="rock">Rock<br>
     		<input type="checkbox" name="musictype2" value="pop">Pop<br> 
     		<input type="checkbox" name="musictype3" value="blues">Blues<br>
@@ -53,29 +55,37 @@
 		<button>Filter</button>
 		
 	</div>
+	
+	<!-- Main view -->
 	<section id="home-view">
-		<div class="main-content" id="song-container">
-			<!-- <div class="Song1 specific-song">
-			<h2></h2>
-			<h4 class="song1list artist-name"></h4>
-			<h4 class="song1list album-name"></h4>
-			<h4 class="song1list genre-type"></h4> -->
+			<div class="main-content" id="song-container">
+				<!-- <div class="Song1 specific-song">
+					<h2></h2>
+					<h4 class="song1list artist-name"></h4>
+					<h4 class="song1list album-name"></h4>
+					<h4 class="song1list genre-type"></h4> -->
+				</div>
+		</section>
+		
+		<!-- add content page -->
+		<section class="hidden add-view" id="add-view">
+			
+			<div class="main-content" id="song-container2">	
+			<header id="searchFields">
+				<input id="songName" type="text" placeholder="Song Name"></input>
+				<input id="artistName" type="text" placeholder="Artist Name"></input>
+				<input id="albumName" type="text" placeholder="Album Name"></input>
+				<button class="button">Add</button>
+			</header>
+
 			</div>
+	
 	  </section>
-	  
 	  <section class="hidden" id="list-view">
 
 	  </section>
 	  
-	  <section class="hidden" id="add-view">
-			<header id="searchFields">
-			<input type="text" placeholder="Song Name"></input>
-			<input type="text" placeholder="Artist Name"></input>
-			<input type="text" placeholder="Album Name"></input>
-			<button class="button">Add</button>
-			</header>
-
-	  </section>
+	  
 		
 	</div>
 <script type="text/javascript" src="./javascripts/songs.js"></script>
